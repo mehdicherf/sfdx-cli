@@ -7,6 +7,8 @@ RUN apk add --update --no-cache  \
       curl \
       wget \
       unzip \
+      git \
+      rsync \
       bash \
       nodejs \
       nodejs-npm \
