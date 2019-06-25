@@ -8,6 +8,7 @@ RUN apk add --update --no-cache  \
       wget \
       unzip \
       git \
+      rsync \
       findutils \
       bash \
       nodejs \
