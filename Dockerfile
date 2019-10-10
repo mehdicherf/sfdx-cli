@@ -25,5 +25,5 @@ RUN sfdx --version
 RUN sfdx plugins --core
 
 # install sgd from npm - https://github.com/scolladon/sfdx-git-delta
-RUN npm install sfdx-git-delta@2.0.2 --global
+RUN npm install sfdx-git-delta@latest --global
 RUN sgd --version
